@@ -26,7 +26,6 @@ void swap(int &a, int &b, int &c){
     b = a;
     a = c;
     c = temp;
-    swaptwo (a, b);
   
 }
 void swaptwo(int &a, int &b){
