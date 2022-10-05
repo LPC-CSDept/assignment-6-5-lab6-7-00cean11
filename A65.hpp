@@ -10,9 +10,7 @@ int main (){
     int a, b, c;
     getInput(a, b, c);
     swap(a, b, c);
-    cout << "(" << a << ", " << b << ", " << c << ")" <<endl; 
     swaptwo(a, b);
-    cout << "(" << a << ", " << b << ", " << c << ")" <<endl;
 }
 void getInput(int &num1, int &num2, int &num3) {
   while (true) {
