@@ -6,12 +6,6 @@ using namespace std;
 void getInput(int &a, int &b, int &c);
 void swap(int &a, int &b, int &c);
 void swaptwo(int &a, int &b);
-int main (){
-    int a, b, c;
-    getInput(a, b, c);
-    swap(a, b, c);
-    swaptwo(a, b);
-}
 void getInput(int &num1, int &num2, int &num3) {
   while (true) {
     cout << "Enter your value: ";
